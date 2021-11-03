@@ -25,7 +25,7 @@ function clearCanvas() {
   ctx.strokeStyle = 'black';
   ctx.strokeRect(canvas.width - 130, 0, 112, gap * 7 + 10);
   ctx.fillStyle = 'white';
-  ctx.fillText('c : törlés', canvas.width - 120, gap);
+  ctx.fillText('c : Clear', canvas.width - 120, gap);
   ctx.fillStyle = 'red';
   ctx.fillText('r : Red', canvas.width - 120, gap * 2);
   ctx.fillStyle = 'green';
